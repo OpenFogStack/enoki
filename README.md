@@ -8,7 +8,7 @@ If you use this software in a publication, please cite it as:
 
 ### Text
 
-T. Pfandzelter and D. Bermbach, **Enoki: Stateful Distributed FaaS from Edge to Cloud**, forthcoming, 2023.
+T. Pfandzelter and D. Bermbach, **Enoki: Stateful Distributed FaaS from Edge to Cloud**, arXiv:2309.03584, 2023.
 
 ### BibTeX
 
@@ -17,9 +17,12 @@ T. Pfandzelter and D. Bermbach, **Enoki: Stateful Distributed FaaS from Edge to 
     author = "Pfandzelter, Tobias and Bermbach, David",
     title = "Enoki: Stateful Distributed FaaS from Edge to Cloud",
     year = 2023,
+    month = sep,
+    eprint = "2309.03584"
 }
 ```
 
+A preprint is available on [arXiv](https://arxiv.org/abs/2309.03584).
 For a full list of publications, please see [our website](https://www.tu.berlin/en/mcc/research/publications).
 
 ### License
