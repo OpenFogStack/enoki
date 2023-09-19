@@ -69,7 +69,7 @@ type DockerKVBackend struct {
 func New(tinyFaaSID string, fredHost string, fredPort int, caCertPath string, caKeyPath string) *DockerKVBackend {
 
 	// create docker client
-	client, err := client.NewClientWithOpts(client.FromEnv)
+	client, err := client.NewClientWithOpts(client.FromEnv, client.WithAPIVersionNegotiation())
 	if err != nil {
 		log.Fatalf("error creating docker client: %s", err)
 		return nil

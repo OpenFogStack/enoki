@@ -1,5 +1,8 @@
-./manager
-./rproxy
+manager
+!manager/
+rproxy
+!rproxy/
+
 certs
 
 # Created by https://www.toptal.com/developers/gitignore/api/go,node,python,visualstudiocode,terraform,macos,microsoftoffice
