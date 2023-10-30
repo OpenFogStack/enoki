@@ -8,18 +8,23 @@ If you use this software in a publication, please cite it as:
 
 ### Text
 
-T. Pfandzelter and D. Bermbach, **Enoki: Stateful Distributed FaaS from Edge to Cloud**, arXiv:2309.03584, 2023.
+T. Pfandzelter and D. Bermbach, **Enoki: Stateful Distributed FaaS from Edge to Cloud**, Proceedings of the 2nd International Workshop on Middleware for the Edge (MiddleWEdge '23), Bologna, Italy. ACM New York, NY, USA, 2023.
 
 ### BibTeX
 
 ```bibtex
-@article{pfandzelter2023enoki,
+@inproceedings{pfandzelter2023enoki,
     author = "Pfandzelter, Tobias and Bermbach, David",
     title = "Enoki: Stateful Distributed FaaS from Edge to Cloud",
+    booktitle = "Proceedings of the 2nd International Workshop on Middleware for the Edge (MiddleWEdge '23)",
+    month = dec,
     year = 2023,
-    month = sep,
-    eprint = "2309.03584"
+    publisher = "ACM",
+    address = "New York, NY, USA",
+    location = "Bologna, Italy",
+    doi = "10.1145/3630180.3631203"
 }
+
 ```
 
 A preprint is available on [arXiv](https://arxiv.org/abs/2309.03584).
